@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/page-one',function (req,res) {
-    res.sed('Ur order has been heard loud and clear:)');
+    res.send('Ur order has been heard loud and clear:)');
 });
 
 app.get('/page-two',function (req,res) {
-    res.sed('Ur order has been heard loud and clear:)');
+    res.send('Ur order has been heard loud and clear:)');
 });
 
 app.get('/page-three',function (req,res) {
-    res.sed('Ur order has been heard loud and clear:)');
+    res.send('Ur order has been heard loud and clear:)');
 });
 
 app.get('/ui/style.css', function (req, res) {
