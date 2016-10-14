@@ -18,7 +18,7 @@ app.get('/page-two',function (req,res) {
 });
 
 app.get('/page-three',function (req,res) {
-    res.send('Ur order has been heard loud and clear:)');
+  res.sendFile(path.join(__dirname, 'ui', 'page-three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
